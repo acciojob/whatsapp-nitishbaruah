@@ -70,7 +70,7 @@ public class WhatsappController {
         return whatsappService.changeAdmin(approver, user, group);
     }
 
-    @DeleteMapping("/remove-user")
+    /* @DeleteMapping("/remove-user")
     public int removeUser(User user) throws Exception{
         //This is a bonus problem and does not contains any marks
         //A user belongs to exactly one group
@@ -90,4 +90,6 @@ public class WhatsappController {
 
         return whatsappService.findMessage(start, end, K);
     }
+
+     */
 }
